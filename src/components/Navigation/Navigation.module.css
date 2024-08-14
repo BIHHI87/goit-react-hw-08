@@ -1,0 +1,20 @@
+.link {
+    font-size: 16px;
+    font-weight: 400;
+    color: inherit;
+}
+
+.active {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+.navigation {
+    display: flex;
+    flex-basis: 150px;
+    justify-content: space-between;
+
+    li {
+        list-style-type: none;
+    }
+}

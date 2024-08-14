@@ -1,0 +1,27 @@
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+
+    div {
+        display: flex;
+        column-gap: 5px;
+        align-items: center;
+    }
+}
+
+.phoneBlock {
+    margin-top: 10px;
+}
+
+.phone {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button.btn {
+    height: 30px;
+    color: #000;
+    /* border-color: #000; */
+}

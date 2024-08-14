@@ -1,0 +1,20 @@
+.searchBox {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #5f85b1;
+    border-radius: 8px;
+    /* margin-top: 16px; */
+    width: 450px;
+    row-gap: 15px;
+}
+
+.searchLine {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.searchInput {
+    height: 30px;
+}

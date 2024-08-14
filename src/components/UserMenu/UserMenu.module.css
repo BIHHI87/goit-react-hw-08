@@ -1,0 +1,12 @@
+.userMenu {
+    display: flex;
+    flex-basis: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button.btn {
+    height: 30px;
+    color: #fff;
+    border-color: #fff;
+}
