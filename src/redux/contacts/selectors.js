@@ -14,9 +14,7 @@ export const selectFilteredContacts = createSelector(
 
     return contacts.filter(({ name, number }) => {
       const nameMatches = name.toLowerCase().includes(nameFilter.toLowerCase());
-      const numberMatches = number
-        .toLowerCase()
-        .includes(numberFilter.toLowerCase());
+      const numberMatches = number.includes(numberFilter); 
       return nameMatches && numberMatches;
     });
   }
